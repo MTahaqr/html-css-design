@@ -1,0 +1,43 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footerGrid {
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  grid-template-rows: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.des {
+  font-family: var(--font-open-sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #777777;
+  max-width: 300px;
+  margin-top: 20px;
+  margin-top: 30px;
+}
+.footerHeadings {
+  font-family: var(--font-open-sans);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.navItem {
+  font-family: var(--font-open-sans);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #777777;
+  cursor: pointer;
+}

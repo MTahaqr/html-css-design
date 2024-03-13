@@ -15,7 +15,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang='en'>
+      <head>
+        <meta charSet='UTF-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <link
+          href='https://fonts.googleapis.com/css?family=Open Sans'
+          rel='stylesheet'
+        />
+        <link
+          href='https://fonts.googleapis.com/css?family=Manrope'
+          rel='stylesheet'
+        />
+        <title>Responsive Webpage</title>
+        <link rel='stylesheet' href='styles.css' />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

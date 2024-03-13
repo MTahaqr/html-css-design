@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  padding: 75px 100px;
+  background-color: var(--background-color);
+  height: 1166px;
+}
+
+.content {
+  max-width: 800px;
+}
+.firstText {
+  font-family: var(--font-open-sans);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color1);
+}
+.secText {
+  font-family: var(--font-manrope);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color1);
+}
+.thirdText {
+  font-family: var(--font-open-sans);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color2);
+}
+.valueWithImgContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+  margin-top: 60px;
+}
+.valuesHeading {
+  font-family: var(--font-manrope);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color1);
+}
+.valuesDescription {
+  font-family: var(--font-open-sans);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color2);
+}

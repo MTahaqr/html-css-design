@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background-color: var(--background-color);
+  color: white;
+}
+
+.navContainter {
+  gap: 40px;
+  display: flex;
+  list-style-type: none;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  align-items: center;
+}
+.loginBtn {
+  width: 128px;
+  height: 40px;
+  background-color: var(--color1);
+  color: #0a2640;
+  border: none;
+  font-family: var(--font-open-sans);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  border-radius: 24px;
+  border: 2px;
+  gap: 8px;
+}
